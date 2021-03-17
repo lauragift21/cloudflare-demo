@@ -1,0 +1,17 @@
+<template>
+  <div class="mt-4 text-xl">
+    <ul class="flex justify-end">
+      <li class="mr-6">
+        <a class="text-black-500 hover:text-orange-500" href="">Tutorial</a>
+      </li>
+      <li class="mr-6">
+        <a
+          class="text-black-500 hover:text-orange-500"
+          href="https://github.com/lauragift21/cloudflare-demo"
+        >
+          GitHub
+        </a>
+      </li>
+    </ul>
+  </div>
+</template>

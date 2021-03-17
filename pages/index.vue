@@ -1,28 +1,15 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
-      <h1 class="title">
-        cloudflare-demo
+      <img class="mx-auto" src="~assets/cloudflare.svg" alt="Cloudflare Pages" width="350">
+      <h1 class="title text-3xl mt-4">
+        Deploy your Jamstack Website with <a href="https://pages.cloudflare.com/"> Cloudflare Pages.</a>
       </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+    </div>
+    <div class="mt-8 text-lg">
+      <a class="bg-orange-500 font-bold text-white rounded py-2 px-6 hover:bg-orange-600" href="https://pages.cloudflare.com/">
+        Learn More
+      </a>
     </div>
   </div>
 </template>
@@ -37,10 +24,12 @@ export default {}
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
+
 .container {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -48,19 +37,9 @@ export default {}
 
 .title {
   font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
+   -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  color: hsl(0, 30%, 10%);
   letter-spacing: 1px;
 }
 
